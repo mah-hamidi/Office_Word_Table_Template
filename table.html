@@ -7,82 +7,174 @@
     <title>table-template</title>
     <style>
         
-        h1{text-align: center;}
-        hr{ border: rgb(15, 20, 92) 3px double;}
-.first-table ,.first-table tr td , .first-table tr th{
-     border: 3px solid rgb(189, 211, 212); 
+        h1
+        {text-align: center;}
+        hr
+        { border: rgb(15, 20, 92) 3px double;}
+
+    .first-table ,.first-table tr td , .first-table tr th
+     {border: 3px solid rgb(189, 211, 212); 
      border-collapse: collapse;}
 
-.first-row { display: flex; gap: 70px;}
-.second-table , .second-table tr td ,.second-table tr th{
-    border: 2px solid rgb(189, 211, 212);
+    .first-row
+    { display: flex; gap: 70px;}
+
+
+    .second-table , .second-table tr td ,.second-table tr th
+     {border: 2px solid rgb(189, 211, 212);
     border-collapse: collapse;
     border-left: none;
-    border-right: none;
-}
+    border-right: none;}
 
-    .second-row{display: flex; gap: 70px}
+
+    .second-row
+    {display: flex; gap: 70px}
+
+
     .second-row-first-table , .second-row-first-table tr td 
-    { border: 2px solid rgb(82, 144, 165); border-collapse: collapse;}
-    .second-row-first-table tr:nth-child(odd){ background-color: lightblue;}
-    .second-row-first-table th{border: 2px solid rgb(82, 144, 165); border-collapse: collapse;background-color:white;}
+    { border: 2px solid rgb(82, 144, 165);
+      border-collapse: collapse;}
+
+
+    .second-row-first-table tr:nth-child(odd)
+    { background-color: lightblue;}
+
+
+    .second-row-first-table th
+    {border: 2px solid rgb(82, 144, 165);
+     border-collapse: collapse;
+     background-color:white;}
+
 
 
     .second-row-second-table , .second-row-second-table tr td , .second-row-second-table tr th
-    { border-collapse: collapse;border-right: none; border-left: none;}
-    .second-row-second-table tr:nth-child(even){ background-color: lightblue;}
-    .second-row-second-table tr th { border-bottom:3px solid rgb(26, 198, 207);}
+    { border-collapse: collapse;
+    border-right: none; 
+    border-left: none;}
+
+
+    .second-row-second-table tr:nth-child(even)
+    { background-color: lightblue;}
+
+    .second-row-second-table tr th
+     { border-bottom:3px solid rgb(26, 198, 207);}
+
+
     .second-row-second-table td:first-child , .second-row-second-table th:first-child 
      {border-right: 3px solid rgb(26, 198, 207); }
 
 
-    .th-row{display: flex; gap: 70px}
-    .th-row-fi-table tr:nth-child(odd){background-color: wheat; }
+    .th-row
+    {display: flex; gap: 70px}
+
+
+    .th-row-fi-table tr:nth-child(odd)
+    {background-color: wheat; }
 
     .th-row-se-table ,.th-row-se-table tr td 
-    {border: 2px solid coral; border-collapse: collapse;}
+    {border: 2px solid coral; 
+    border-collapse: collapse;}
+
+
     .th-row-se-table tr th
-    {border-bottom: 5px solid coral; border-right: 2px solid coral; border-left: 2px solid coral;}
+    {border-bottom: 5px solid coral; 
+    border-right: 2px solid coral;
+    border-left: 2px solid coral;}
     
     .fo-row{display:flex; gap: 70px}
 
     .fo-row-first-table , .fo-row-first-table tr td
-    { border-collapse: collapse;border-right: none; border-left: none;}
-    .fo-row-first-table tr:nth-child(odd){ background-color: rgb(129, 187, 124);}
-    .fo-row-first-table tr th{background-color: white; border-bottom: 3px solid #2a6414;}
+    { border-collapse: collapse;
+    border-right: none; 
+    border-left: none;}
+
+
+    .fo-row-first-table tr:nth-child(odd)
+    { background-color: rgb(129, 187, 124);}
+
+
+    .fo-row-first-table tr th
+    {background-color: white;
+    border-bottom: 3px solid #2a6414;}
+
+
     .fo-row-first-table td:first-child , .fo-row-first-table th:first-child 
-     {border-right: 3px solid #2a6414; background-color: white; }
+     {border-right: 3px solid #2a6414; 
+     background-color: white; }
     
 
      .fo-row-se-table , .fo-row-se-table tr td
-    {border: 2px solid white; border-collapse: collapse; color: rgb(17, 2, 2);}
-    .fo-row-se-table tr:nth-child(odd){ background-color: rgb(129, 187, 124);}
-    .fo-row-se-table tr:nth-child(even){ background-color: rgb(79, 155, 73);}
-    .fo-row-se-table tr th{background-color: rgb(70, 68, 68); color: white ;}
-    .fo-row-se-table td:first-child {border-right: 3px solid white; background-color: rgb(70, 68, 68); color: white; }
+    {border: 2px solid white;
+     border-collapse: collapse; 
+     color: rgb(17, 2, 2);}
+
+
+    .fo-row-se-table tr:nth-child(odd)
+    { background-color: rgb(129, 187, 124);}
+
+
+    .fo-row-se-table tr:nth-child(even)
+    { background-color: rgb(79, 155, 73);}
+
+
+    .fo-row-se-table tr th
+    {background-color: rgb(70, 68, 68);
+     color: white ;}
+
+
+    .fo-row-se-table td:first-child 
+    {border-right: 3px solid white;
+     background-color: rgb(70, 68, 68); 
+     color: white; }
 
 
      .fiv-row{display: flex;gap: 70px }
-     .fiv-row-fi-table{border-collapse: collapse;}
-     .fiv-row-fi-table tr:nth-child(odd){background-color: rgb(238, 198, 221);}
-     .fiv-row-fi-table tr th {border-bottom: 2px solid black; background-color: white;}
 
-     .fiv-row-se-table , .fiv-row-se-table tr td ,.fiv-row-se-table tr th{
-    border: 2px solid coral;
-    border-collapse: collapse;
-    border-left: none;
-    border-right: none;
-    border-bottom: 2px solid black;
-    border-top: 1px solid black;}
-    .fiv-row-se-table td:first-child{ border-left:2px solid black;}
-    .fiv-row-se-table td:last-child{ border-right:2px solid black;}
-    .fiv-row-se-table th:first-child{ border-left:2px solid black; border-bottom: 2px solid white;}
-    .fiv-row-se-table th:last-child{ border-right:2px solid black;}
-    .fiv-row-se-table thead tr{ background-color: rgb(70, 68, 68); color: white;}
+     .fiv-row-fi-table
+     {border-collapse: collapse;}
+
+
+     .fiv-row-fi-table tr:nth-child(odd)
+     {background-color: rgb(238, 198, 221);}
+
+
+     .fiv-row-fi-table tr th 
+     {border-bottom: 2px solid black;
+     background-color: white;}
+
+
+     .fiv-row-se-table , .fiv-row-se-table tr td ,.fiv-row-se-table tr th
+     {border: 2px solid coral;
+     border-collapse: collapse;
+     border-left: none;
+     border-right: none;
+     border-bottom: 2px solid black;
+     border-top: 1px solid black;}
+
+
+    .fiv-row-se-table td:first-child
+    { border-left:2px solid black;}
+
+    .fiv-row-se-table td:last-child
+    { border-right:2px solid black;}
+
+    .fiv-row-se-table th:first-child
+    { border-left:2px solid black;
+     border-bottom: 2px solid white;}
+
+
+    .fiv-row-se-table th:last-child
+    { border-right:2px solid black;}
+
+
+    .fiv-row-se-table thead tr
+    { background-color: rgb(70, 68, 68);
+     color: white;}
 
 
 
     .si-row{display: flex; gap: 70px}
+    
     .si-row-fi-table , .si-row-fi-table tr td ,.si-row-fi-table tr th{
     border: 2px solid coral;
     border-collapse: collapse;
@@ -90,12 +182,27 @@
     border-right: none;
     border-bottom: 1px solid black;
     border-top: 1px solid black;}
-    .si-row-fi-table tr:nth-child(odd){background-color: rgb(216, 231, 130);}
-    .si-row-fi-table td:first-child{ border-left:2px solid black;}
-    .si-row-fi-table td:last-child{ border-right:2px solid black;}
-    .si-row-fi-table th:first-child{ border-left:2px solid black;}
-    .si-row-fi-table th:last-child{ border-right:2px solid black;}
-    .si-row-fi-table tr th{ background-color: rgb(70, 68, 68); color: white;}
+
+
+    .si-row-fi-table tr:nth-child(odd)
+    {background-color: rgb(216, 231, 130);}
+
+
+    .si-row-fi-table td:first-child
+    { border-left:2px solid black;}
+
+    .si-row-fi-table td:last-child
+    { border-right:2px solid black;}
+
+    .si-row-fi-table th:first-child
+    { border-left:2px solid black;}
+
+    .si-row-fi-table th:last-child
+    { border-right:2px solid black;}
+
+    .si-row-fi-table tr th
+    { background-color: rgb(70, 68, 68);
+     color: white;}
 
     
     .si-row-fi-table{
@@ -105,10 +212,21 @@
         border-right: none;}
    
        
-     .si-row-se-table{border-collapse: collapse; }
-     .si-row-se-table tr:nth-child(odd){ border-bottom: ; background-color: rgb(213, 223, 156);}
-     .si-row-se-table tr th {border-bottom: 2px solid black;border-top: 2px solid black; background-color: white;}
-     .si-row-se-table tr {border-bottom: 2px solid black ;}
+     .si-row-se-table
+     {border-collapse: collapse; }
+
+     .si-row-se-table tr:nth-child(odd)
+     { border-bottom:1px ; 
+    background-color: rgb(213, 223, 156);}
+
+     .si-row-se-table tr th 
+     {border-bottom: 2px solid black;
+     border-top: 2px solid black;
+     background-color: white;}
+
+
+     .si-row-se-table tr 
+     {border-bottom: 2px solid black ;}
 
     </style>
 </head>
