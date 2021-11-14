@@ -1,0 +1,87 @@
+[lang="fa-Ir"] {direction: rtl !important;}
+
+:root {
+--bg-header-color: #D1AA4B;
+--bg-main-color:#21201F;
+--bg-main-boxes:#3A3836;
+--text-main-color: #F9F3F3;
+--text-h1-color:#080808;
+--bg-header-second-color:#D6B768;
+--h2-color:#D1AA4B;
+
+
+}
+.rtl 
+{direction: rtl;}
+
+.ltr
+ {direction: ltr;}
+
+ @font-face {
+    font-family: 'BBaran';
+    src: url('../fonts/BBaran.eot?#') format('eot'),  /* IE6–8 */
+         url('../fonts/BBaran.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+         url('../fonts/BBaran.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+  }
+body{
+    font-family:BBaran ;
+} 
+/* header css */
+
+header {
+    background-color: var(--bg-header-color);
+     
+}
+
+
+h1{
+    color: var(--text-h1-color);
+}
+.hr-color {
+    color:#080808
+}
+.btn-header{
+    border: none;
+    background-color: var(--bg-header-second-color);
+}
+.list-style-none{
+    list-style: none;
+}
+.mine-rounded{
+    border-radius: 5px;
+}
+header li{
+    background-color: var(--bg-header-second-color);
+}
+/* main css */
+
+
+.bg-main-color {
+    background-color: var(--bg-main-color);
+}
+h2{
+    color: var(--h2-color);
+}
+.bg-main-boxes{
+    background-color: var(--bg-main-boxes);
+}
+main img{
+    border-radius:22px;
+    width: 120px;
+    height: 136px;
+}
+main h5 {
+    color: white;
+    font-size:larger;
+}
+main p {
+    color:#B3AFAF;
+}
+main small{
+    color: white;
+    font-size: smaller;
+}
+.boxes{
+    margin: 7px;
+}
+ 
