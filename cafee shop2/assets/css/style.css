@@ -23,19 +23,38 @@
          url('../fonts/BBaran.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
          url('../fonts/BBaran.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
   }
+
+
+/*.............
+
+swiper-css
+
+...............*/
+
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+
 body{
     font-family:BBaran ;
+    /* position: absolute; */
 } 
+
 /* header css */
 
 header {
     background-color: var(--bg-header-color);
+      position: fixed;
+    width: 100%;
      
 }
 
 
 h1{
     color: var(--text-h1-color);
+    
 }
 .hr-color {
     color:#080808
@@ -52,15 +71,19 @@ h1{
 }
 header li{
     background-color: var(--bg-header-second-color);
+    
 }
+
+
 /* main css */
 
 
 .bg-main-color {
     background-color: var(--bg-main-color);
 }
-h2{
+ h2{
     color: var(--h2-color);
+    
 }
 .bg-main-boxes{
     background-color: var(--bg-main-boxes);
